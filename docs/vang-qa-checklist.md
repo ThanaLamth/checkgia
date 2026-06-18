@@ -11,6 +11,7 @@ Companion files:
 
 - `docs/vang-dev-prompt.md`
 - `docs/vang-hub-content-spec.md`
+- `docs/vang-checker-dispatch-example.md`
 - `docs/vang-review-template.md`
 - `scripts/check-vang-page.py`
 
@@ -38,6 +39,7 @@ GitHub Action:
 
 - `.github/workflows/check-vang-pages.yml`
 - can run by `workflow_dispatch`, `repository_dispatch`, or schedule
+- dispatch example: `docs/vang-checker-dispatch-example.md`
 
 ## 2. Manual QA For `/vang`
 
