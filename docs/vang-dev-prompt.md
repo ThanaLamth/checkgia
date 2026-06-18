@@ -4,6 +4,12 @@ Date: 2026-06-18
 
 Use this prompt as the primary handoff to engineering.
 
+Supporting specs:
+
+- `docs/vang-hub-content-spec.md`
+- `docs/nhan-9999-content-spec.md`
+- `docs/nhan-9999-savings-widget-spec.md`
+
 ## Prompt
 
 You are implementing SEO, AISO, and UX improvements for the gold section of `checkgia.com`, starting with:
@@ -251,6 +257,10 @@ Recommended additions:
   - which ones update more frequently
   - what users should click depending on their intent
 - cleaner, more neutral FAQ
+
+See:
+
+- `docs/vang-hub-content-spec.md`
 
 ### 10. Keep The `content -> tool` Flow, But Reorder It
 

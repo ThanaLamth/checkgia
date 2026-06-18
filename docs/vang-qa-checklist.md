@@ -10,6 +10,7 @@ Targets:
 Companion files:
 
 - `docs/vang-dev-prompt.md`
+- `docs/vang-hub-content-spec.md`
 - `docs/vang-review-template.md`
 - `scripts/check-vang-page.py`
 
@@ -32,6 +33,11 @@ Recommended for staging review:
 ```bash
 python3 scripts/check-vang-page.py https://staging.checkgia.com/vang https://staging.checkgia.com/vang/nhan-9999
 ```
+
+GitHub Action:
+
+- `.github/workflows/check-vang-pages.yml`
+- can run by `workflow_dispatch`, `repository_dispatch`, or schedule
 
 ## 2. Manual QA For `/vang`
 

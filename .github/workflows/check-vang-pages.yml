@@ -1,0 +1,52 @@
+name: Check Vang Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      hub_url:
+        description: "Hub URL to check"
+        required: false
+        default: "https://checkgia.com/vang"
+      entity_url:
+        description: "Entity URL to check"
+        required: false
+        default: "https://checkgia.com/vang/nhan-9999"
+  repository_dispatch:
+    types:
+      - check-vang-pages
+  schedule:
+    - cron: "17 3 * * *"
+
+jobs:
+  check-pages:
+    runs-on: ubuntu-latest
+    env:
+      DEFAULT_HUB_URL: https://checkgia.com/vang
+      DEFAULT_ENTITY_URL: https://checkgia.com/vang/nhan-9999
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve target URLs
+        id: targets
+        env:
+          INPUT_HUB_URL: ${{ github.event.inputs.hub_url }}
+          INPUT_ENTITY_URL: ${{ github.event.inputs.entity_url }}
+          PAYLOAD_HUB_URL: ${{ github.event.client_payload.hub_url }}
+          PAYLOAD_ENTITY_URL: ${{ github.event.client_payload.entity_url }}
+        run: |
+          HUB_URL="${INPUT_HUB_URL:-${PAYLOAD_HUB_URL:-$DEFAULT_HUB_URL}}"
+          ENTITY_URL="${INPUT_ENTITY_URL:-${PAYLOAD_ENTITY_URL:-$DEFAULT_ENTITY_URL}}"
+          echo "hub_url=$HUB_URL" >> "$GITHUB_OUTPUT"
+          echo "entity_url=$ENTITY_URL" >> "$GITHUB_OUTPUT"
+
+      - name: Run vang page checker
+        run: |
+          python3 scripts/check-vang-page.py \
+            "${{ steps.targets.outputs.hub_url }}" \
+            "${{ steps.targets.outputs.entity_url }}"
