@@ -12,6 +12,7 @@ Companion files:
 - `docs/vang-dev-prompt.md`
 - `docs/vang-hub-content-spec.md`
 - `docs/vang-checker-dispatch-example.md`
+- `docs/vang-release-checklist.md`
 - `docs/vang-review-template.md`
 - `scripts/check-vang-page.py`
 
