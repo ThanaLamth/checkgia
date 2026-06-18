@@ -10,6 +10,7 @@ Targets:
 Companion files:
 
 - `docs/vang-dev-prompt.md`
+- `docs/vang-review-template.md`
 - `scripts/check-vang-page.py`
 
 ## 1. Run Automated Checks First
@@ -24,6 +25,12 @@ Optional custom URLs:
 
 ```bash
 python3 scripts/check-vang-page.py https://checkgia.com/vang https://checkgia.com/vang/nhan-9999
+```
+
+Recommended for staging review:
+
+```bash
+python3 scripts/check-vang-page.py https://staging.checkgia.com/vang https://staging.checkgia.com/vang/nhan-9999
 ```
 
 ## 2. Manual QA For `/vang`
@@ -163,3 +170,7 @@ When re-reviewing after implementation, report:
 2. failed checks
 3. blockers
 4. requested follow-up changes
+
+Use:
+
+- `docs/vang-review-template.md`

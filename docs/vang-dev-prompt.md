@@ -284,6 +284,20 @@ Do not:
 - hide important numbers behind client-only rendering
 - make `/vang/nhan-9999` drift into a broad finance page
 
+## Delivery Requirements For Engineering
+
+When submitting the work, include:
+
+1. changed file list
+2. staging URLs for `/vang` and `/vang/nhan-9999`
+3. one fetched HTML snippet or `view-source` proof showing:
+   - hero numbers are SSR
+   - `FAQPage` is removed
+   - `Dataset` is removed where applicable
+4. note whether the hero SSR fix was applied only to `/vang/nhan-9999` or to the shared entity template
+
+Do not mark the task done without those artifacts.
+
 ## Definition Of Done
 
 The task is done when:

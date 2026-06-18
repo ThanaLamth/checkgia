@@ -43,6 +43,10 @@ def meta_description_of(html: str) -> str | None:
     return extract(r'<meta name="description" content="([^"]*)"', html)
 
 
+def h1_of(html: str) -> str | None:
+    return extract(r"<h1[^>]*>(.*?)</h1>", html)
+
+
 def print_result(label: str, ok: bool, detail: str = "") -> None:
     status = "PASS" if ok else "FAIL"
     suffix = f" - {detail}" if detail else ""
@@ -54,6 +58,8 @@ def check_common(url: str, html: str) -> int:
     title = title_of(html)
     canonical = canonical_of(html)
     meta_desc = meta_description_of(html)
+    h1 = h1_of(html)
+    normalized_html = unescape(html).lower()
 
     ok = title is not None and len(title) > 0
     print_result("title present", ok, title or "")
@@ -63,13 +69,26 @@ def check_common(url: str, html: str) -> int:
     print_result("canonical present", ok, canonical or "")
     failures += 0 if ok else 1
 
+    expected_canonical = url.rstrip("/")
+    ok = canonical is not None and canonical.rstrip("/") == expected_canonical
+    print_result("canonical matches target URL", ok, canonical or "")
+    failures += 0 if ok else 1
+
     ok = meta_desc is not None and len(meta_desc) > 0
     print_result("meta description present", ok, meta_desc or "")
     failures += 0 if ok else 1
 
-    slang_terms = ["mày", "Tao", "cross threshold", "magic link"]
+    ok = h1 is not None and len(re.sub(r"<[^>]+>", "", h1).strip()) > 0
+    print_result("H1 present", ok, re.sub(r"<[^>]+>", "", h1 or "").strip())
+    failures += 0 if ok else 1
+
+    ok = "noindex" not in normalized_html
+    print_result("page is indexable (no noindex)", ok)
+    failures += 0 if ok else 1
+
+    slang_terms = ["mày", "tao", "cross threshold", "magic link"]
     for term in slang_terms:
-        ok = term not in html
+        ok = term not in normalized_html
         print_result(f"slang removed: {term}", ok)
         failures += 0 if ok else 1
 
