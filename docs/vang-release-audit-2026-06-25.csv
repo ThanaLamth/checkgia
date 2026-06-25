@@ -1,0 +1,22 @@
+section,page,status,item,details,severity,recommended_action
+inputs,scope,info,environment reviewed,production,info,
+inputs,scope,info,urls reviewed,"https://checkgia.com/vang | https://checkgia.com/vang/nhan-9999",info,
+automation,all,pass,automated checker,"Total failures: 0 | overall_status: Pass",info,
+passed,/vang/nhan-9999,pass,hero SSR and table consistency,"Hero shows real numbers, no placeholder dash, and values match comparison table",high,
+passed,/vang/nhan-9999,pass,answer block usefulness,"Answer block summarizes cheapest source, price gap, and spread in a useful way",medium,
+passed,/vang/nhan-9999,pass,KPI row semantics,"KPI row shows meaningful delta context with percentage and absolute change",medium,
+passed,/vang/nhan-9999,pass,savings widget scope,"Savings widget stays compact and does not overpower the page intent",medium,
+passed,/vang/nhan-9999,pass,mobile layout,"No mobile layout break reported",medium,
+passed,/vang,pass,H1 and main sections,"Page has a clear H1 and visible section grouping",medium,
+passed,/vang,pass,FAQ tone,"FAQ is clean, neutral, and does not contain slang or filler",medium,
+passed,/vang,pass,freshness copy integrity,"Freshness and timestamp copy is transparent and does not overclaim",high,
+passed,/vang,pass,structured data integrity,"Organization and BreadcrumbList match visible content",high,
+failed,/vang,fail,hub intro prominence,"Intro exists but is too small and visually weak to serve as core explanatory content",high,"Increase font size, contrast, spacing, and make the intro clearly visible below H1"
+failed,/vang,fail,quick route block spec,"Quick route guidance does not meet the intended hub spec",high,"Add a proper route block above the fold with clear title and three route cards"
+failed,/vang,fail,route cards clickability,"Route cards are not functioning as direct navigation controls",high,"Make each route card clickable with anchor links or direct navigation targets"
+failed,/vang,fail,route microcopy,"Route choices do not clearly explain when to choose product, brand, or history paths",medium,"Add one short explanatory line for each route card"
+failed,/vang,fail,section wording clarity,"Current headings like 'Tất cả vàng' and 'Mỗi tiệm riêng' are less intent-clear than product or brand wording",medium,"Rename section headings to intent-based labels such as 'Theo sản phẩm', 'Theo thương hiệu', and 'Theo ngày lịch sử'"
+blocker,/vang,blocker,hub page readiness,"The /vang page still behaves more like a directory page than a strong hub page",high,"Complete intro and route-guidance fixes before approving the full scope"
+decision,/vang/nhan-9999,approve,entity page release,"Entity page is ready based on current audit inputs",info,
+decision,/vang,not approved yet,hub page release,"Hub page still has release-blocking issues in intro and route guidance",high,
+decision,overall,do not approve yet,scope release,"Overall scope /vang plus /vang/nhan-9999 should not be fully approved yet",high,"Ship follow-up fixes on /vang and re-run QA before final approval"
