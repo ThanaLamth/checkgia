@@ -1,0 +1,25 @@
+bucket,keyword,intent,use_for_vang_hub,priority,note
+head,giá vàng,Informational,Primary head term for title and intro,HIGH,Core category query that should anchor the /vang hub
+head,giá vàng hôm nay,Informational,Primary head term for title H1 and hero,HIGH,Most important daily-intent query for the hub
+head,bảng giá vàng,Informational,Title intro and section framing,HIGH,Useful for users expecting a multi-source overview page
+head,giá vàng mới nhất,Informational,Hero freshness messaging,HIGH,Supports current-price and update-oriented positioning
+head,giá vàng trong nước,Informational,Intro and category positioning,HIGH,Helps define Vietnam-focused scope
+head,giá vàng hôm nay mới nhất,Informational,Hero and freshness copy,HIGH,Close variant of the main daily intent
+hub,giá vàng hôm nay các tiệm,Informational,Quick route block and intro,HIGH,Strong fit for a multi-source comparison hub
+hub,so sánh giá vàng các tiệm,Informational,Hub intro and route guidance,HIGH,Excellent phrase for explaining product-level comparison use case
+hub,giá vàng sjc doji pnj,Informational,Brand grid and intro,HIGH,Supports a brand-comparison positioning
+hub,bảng giá vàng các thương hiệu,Informational,Brand route and brand grid,HIGH,Useful for the theo-thuong-hieu path
+hub,giá vàng các hệ thống,Informational,Brand grid and intro,MEDIUM,Alternative phrasing for brand/system comparison
+hub,giá vàng theo tiệm,Informational,Brand route guidance,MEDIUM,Good wording for the one-store-following use case
+hub,giá vàng theo thương hiệu,Informational,Brand route guidance,MEDIUM,Clear intent-based phrase for routing copy
+hub,giá vàng theo sản phẩm,Informational,Product route guidance,MEDIUM,Clear intent-based phrase for routing copy
+hub,xem giá vàng theo ngày,Informational,History route guidance,MEDIUM,Good fit for archive and date-page discovery
+hub,lịch sử giá vàng hôm nay,Informational,History route and archive framing,MEDIUM,Useful variant for daily historical context
+hub,biểu đồ giá vàng,Informational,History section and chart messaging,MEDIUM,Useful if the hub links into trend or archive exploration
+question,giá vàng tiệm nào rẻ nhất,Informational,Intro FAQ and answer-oriented copy,HIGH,Strong decision-support query for hub messaging
+question,nên xem giá vàng theo tiệm hay theo loại,Informational,Route microcopy and FAQ,HIGH,Directly informs the product-vs-brand guidance
+question,xem giá vàng ở đâu chính xác,Informational,Trust and intro copy,MEDIUM,Useful for source-transparency messaging
+question,giá vàng cập nhật bao lâu một lần,Informational,Freshness explanation,MEDIUM,Good support keyword for cadence messaging
+question,vì sao giá vàng mỗi tiệm khác nhau,Informational,FAQ and educational hub content,MEDIUM,Useful support query for explanation content
+question,nên xem vàng sjc hay nhẫn trơn,Informational,Product route guidance,MEDIUM,Supports internal routing toward key product pages
+question,so sánh giá vàng pnj và doji,Informational,Brand comparison copy,LOW,Useful for FAQs and brand-section microcopy

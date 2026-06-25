@@ -1,0 +1,26 @@
+bucket,keyword,intent,volume,keyword_difficulty,use_for_vang_hub,priority,note
+product,vàng tây giá bao nhiêu,Informational,6600,15,Product grid and FAQ,HIGH,Broad product-intent query suitable for overview routing
+brand,phú quý giá vàng,Informational,6600,15,Brand grid,HIGH,Useful for brand-section prioritization
+product,giá vàng 96,Informational,4400,9,Product/type exploration,HIGH,Broad type query that can support category discovery
+product,giá vàng 97,Informational,4400,13,Product/type exploration,HIGH,Broad type query that can support category discovery
+product,vàng 98 giá bao nhiêu 1 chỉ,Informational,4400,13,Product grid and comparison,HIGH,Strong price-format query aligned with unit-aware browsing
+product,vàng 96 giá bao nhiêu 1 chỉ,Informational,2900,10,Product grid and comparison,HIGH,Useful for quantity-oriented product browsing
+product,nhẫn vàng 18k,Informational,2400,10,Product grid,HIGH,Good support keyword for jewelry-type routing
+product,nhẫn trơn,Informational,1900,13,Product grid,HIGH,Directly relevant to the nhan-9999 cluster
+history,giá vàng tháng 1 năm 2025,Informational,1300,15,History section,HIGH,Useful for date/archive navigation messaging
+product,vàng 98 bao nhiêu 1 chỉ,Informational,1300,15,Product comparison,MEDIUM,Another unit-based product query
+product,1 cây vàng 24k bao nhiêu tiền,Informational,1000,14,Product calculator and comparison,MEDIUM,Supports quantity/use-case framing
+product,nhẫn vàng tây 10k giá bao nhiêu,Informational,1000,9,Product grid and FAQ,MEDIUM,Useful for broader jewelry-type discovery
+brand,nhan sjc,Navigational,590,0,Brand or product bridge,MEDIUM,Can inform internal links toward SJC-related pages
+product,1 chỉ vàng tây bao nhiêu tiền,Informational,880,13,Product calculator and comparison,MEDIUM,Useful for quantity-aware browsing
+history,giá vàng năm 1995,Informational,880,14,History section,MEDIUM,Supports long-range historical interest
+history,giá vàng ngày 30 tháng 1 năm 2026,Informational,720,14,History section,MEDIUM,Useful example for date-page discoverability
+product,1 cây vàng bằng bao nhiêu tiền,Informational,590,14,Calculator and conversion support,MEDIUM,Useful for routing users to conversion flows
+history,lịch sử giá vàng năm 2008,Informational,260,13,History section,MEDIUM,Supports archive/history framing
+history,biểu đồ giá vàng từ năm 2000 đến nay,Informational,140,12,History section and chart messaging,MEDIUM,Strong semantic support for chart/archive intent
+history,biểu đồ giá vàng năm 2017,Informational,140,15,History/chart support,LOW,Niche but aligned with history intent
+history,biểu đồ giá vàng năm 2011,Informational,90,15,History/chart support,LOW,Niche but aligned with history intent
+history,biểu đồ giá vàng năm 2016,Informational,50,13,History/chart support,LOW,Niche but aligned with history intent
+history,biểu đồ giá vàng năm 2008,Informational,30,12,History/chart support,LOW,Niche but aligned with history intent
+history,giá vàng thấp nhất trong lịch sử,Informational,30,11,History and FAQ support,LOW,Useful supporting query for educational content
+comparison,so sánh pnj và doji,Informational,30,5,Comparison copy and FAQ,LOW,Low volume but directly useful for comparison framing
