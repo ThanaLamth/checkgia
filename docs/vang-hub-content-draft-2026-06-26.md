@@ -68,7 +68,7 @@ Suggested option:
 
 Suggested option:
 
-- `Theo dõi giá vàng hôm nay từ nhiều nguồn tại Việt Nam. Xem bảng giá vàng theo sản phẩm, theo thương hiệu và theo ngày lịch sử; đối chiếu timestamp từng nguồn trước khi so sánh.`
+- `Theo dõi giá vàng hôm nay từ nhiều nguồn tại Việt Nam. Xem bảng giá vàng theo sản phẩm, theo thương hiệu và theo ngày lịch sử; đối chiếu thời gian cập nhật của từng nguồn trước khi so sánh.`
 
 ## Block 1: Hero Intro
 
@@ -86,7 +86,7 @@ Suggested copy:
 
 Suggested copy:
 
-`Mỗi tiệm có nhịp cập nhật riêng, vì vậy timestamp cần được đọc theo từng nguồn trước khi so sánh giá rẻ nhất.`
+`Mỗi tiệm có nhịp cập nhật riêng, vì vậy bạn nên đọc thời gian cập nhật của từng nguồn trước khi so sánh giá rẻ nhất.`
 
 ### Why This Works
 
@@ -168,7 +168,7 @@ Use one-line descriptions like:
 
 - `So sánh giá mua, giá bán và spread giữa nhiều tiệm`
 - `Phù hợp khi bạn muốn tìm nơi đang bán thấp hơn`
-- `Mở trang chi tiết để xem timestamp từng nguồn`
+- `Mở trang chi tiết để xem giờ cập nhật của từng nguồn`
 
 ### Priority Product Ideas From Keyword Research
 
@@ -237,7 +237,7 @@ Suggested copy:
 
 ### Suggested Intro
 
-`Giá vàng không phải lúc nào cũng được các tiệm cập nhật cùng lúc. Khi so sánh, bạn nên đọc cả mức giá lẫn timestamp của từng nguồn để tránh hiểu nhầm rằng mọi bảng giá đều mới như nhau.`
+`Giá vàng không phải lúc nào cũng được các tiệm cập nhật cùng lúc. Khi so sánh, bạn nên đọc cả mức giá lẫn thời gian cập nhật của từng nguồn để tránh hiểu nhầm rằng mọi bảng giá đều mới như nhau.`
 
 ### Suggested Bullets
 
@@ -280,7 +280,7 @@ Do not add more than 3 to 4 questions.
 
 #### Answer
 
-- `Mỗi nguồn có nhịp cập nhật riêng. Vì vậy thời gian làm mới không nên hiểu là đồng đều cho toàn bộ thị trường; hãy kiểm tra timestamp ở từng bảng giá hoặc từng trang sản phẩm trước khi so sánh.`
+- `Mỗi nguồn có nhịp cập nhật riêng. Vì vậy thời gian làm mới không nên hiểu là đồng đều cho toàn bộ thị trường; hãy kiểm tra giờ cập nhật ở từng bảng giá hoặc từng trang sản phẩm trước khi so sánh.`
 
 ### FAQ 4
 
