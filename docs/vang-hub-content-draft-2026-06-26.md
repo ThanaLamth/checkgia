@@ -1,34 +1,34 @@
-# Content Draft For `/vang`
+# Bản Nháp Nội Dung Cho `/vang`
 
-Related docs:
+Tài liệu liên quan:
 
 - `docs/vang-hub-content-spec.md`
 - `docs/vang-dev-prompt.md`
 - `docs/vang-head-keywords-seed-2026-06-25.csv`
 - `docs/vang-hub-keyword-shortlist-2026-06-25.csv`
 
-Date: 2026-06-26
+Ngày: 2026-06-26
 
-## Purpose
+## Mục tiêu
 
-This is a ready-to-implement content draft for the `/vang` hub page.
+Đây là bản nháp nội dung có thể triển khai trực tiếp cho trang trung tâm `/vang`.
 
-Use it to strengthen:
+Dùng tài liệu này để cải thiện:
 
-- hub-page clarity
-- on-page SEO
-- route guidance
-- keyword-to-content alignment
+- độ rõ ràng của trang trung tâm
+- SEO on-page
+- định hướng điều hướng
+- mức độ bám sát giữa từ khóa và nội dung
 
-The goal is not to stuff keywords.
+Mục tiêu không phải là nhồi từ khóa.
 
-The goal is to make `/vang` read like a real gold-price hub, not a thin directory page.
+Mục tiêu là làm cho `/vang` đọc như một trang trung tâm về giá vàng đúng nghĩa, không phải một trang danh mục mỏng.
 
-## Primary Keyword Direction
+## Định hướng từ khóa chính
 
-Use these keyword groups naturally across the page:
+Sử dụng các nhóm từ khóa này một cách tự nhiên trên trang:
 
-### Head Terms
+### Nhóm từ khóa chính
 
 - `giá vàng`
 - `giá vàng hôm nay`
@@ -36,7 +36,7 @@ Use these keyword groups naturally across the page:
 - `giá vàng mới nhất`
 - `giá vàng trong nước`
 
-### Hub Terms
+### Nhóm từ khóa cho trang trung tâm
 
 - `giá vàng hôm nay các tiệm`
 - `so sánh giá vàng các tiệm`
@@ -45,132 +45,132 @@ Use these keyword groups naturally across the page:
 - `xem giá vàng theo ngày`
 - `biểu đồ giá vàng`
 
-### Question Terms
+### Nhóm từ khóa dạng câu hỏi
 
 - `giá vàng tiệm nào rẻ nhất`
 - `nên xem giá vàng theo tiệm hay theo loại`
 - `giá vàng cập nhật bao lâu một lần`
 - `vì sao giá vàng mỗi tiệm khác nhau`
 
-Do not force all of them into visible copy.
+Không cần cố nhét toàn bộ vào phần chữ hiển thị.
 
-Use them as intent anchors.
+Hãy dùng chúng như các mốc ý định tìm kiếm.
 
-## Suggested Title And Meta
+## Gợi ý tiêu đề và mô tả
 
-### Title
+### Tiêu đề
 
-Suggested option:
+Gợi ý:
 
 - `Giá vàng hôm nay: bảng giá vàng các tiệm, theo sản phẩm, thương hiệu và ngày lịch sử`
 
-### Meta Description
+### Mô tả meta
 
-Suggested option:
+Gợi ý:
 
 - `Theo dõi giá vàng hôm nay từ nhiều nguồn tại Việt Nam. Xem bảng giá vàng theo sản phẩm, theo thương hiệu và theo ngày lịch sử; đối chiếu thời gian cập nhật của từng nguồn trước khi so sánh.`
 
-## Block 1: Hero Intro
+## Khối 1: Phần mở đầu ngay dưới tiêu đề
 
 ### H1
 
 - `Giá vàng hôm nay`
 
-### Intro Paragraph
+### Đoạn giới thiệu chính
 
-Suggested copy:
+Gợi ý nội dung:
 
 `Theo dõi giá vàng hôm nay từ nhiều nguồn tại Việt Nam trên một trang tổng hợp. Tại đây bạn có thể xem bảng giá vàng theo sản phẩm, theo thương hiệu hoặc theo ngày lịch sử để so sánh mức giá đang niêm yết, thời gian cập nhật và chênh lệch giữa các hệ thống.`
 
-### Intro Support Line
+### Dòng bổ trợ cho phần giới thiệu
 
-Suggested copy:
+Gợi ý nội dung:
 
 `Mỗi tiệm có nhịp cập nhật riêng, vì vậy bạn nên đọc thời gian cập nhật của từng nguồn trước khi so sánh giá rẻ nhất.`
 
-### Why This Works
+### Vì sao phần này hiệu quả
 
-- anchors `giá vàng hôm nay`
-- introduces `bảng giá vàng`
-- sets the multi-source expectation
-- explains the three main browsing paths
-- establishes freshness nuance early
+- bám đúng cụm `giá vàng hôm nay`
+- đưa vào cụm `bảng giá vàng`
+- thiết lập kỳ vọng đây là trang tổng hợp nhiều nguồn
+- giải thích sớm ba hướng duyệt chính
+- đưa ngữ cảnh về độ mới của dữ liệu ngay từ đầu
 
-## Block 2: Quick Route Block
+## Khối 2: Điều hướng nhanh
 
-### Section Title
+### Tiêu đề khối
 
 - `Bạn đang cần xem loại nào?`
 
-### Section Intro
+### Đoạn mở đầu
 
-Suggested copy:
+Gợi ý nội dung:
 
 `Chọn đúng lối đi sẽ giúp bạn tìm giá nhanh hơn: so sánh giữa nhiều tiệm, theo dõi một thương hiệu cụ thể, hoặc xem lại mốc giá cũ theo ngày.`
 
-### Route Card 1
+### Thẻ điều hướng 1
 
-#### Label
+#### Tên thẻ
 
 - `Theo sản phẩm`
 
-#### Short Description
+#### Mô tả ngắn
 
-- `Dùng khi bạn muốn so sánh giá bán, giá mua và spread của cùng một loại vàng giữa nhiều tiệm.`
+- `Dùng khi bạn muốn so sánh giá bán, giá mua và chênh lệch mua bán của cùng một loại vàng giữa nhiều tiệm.`
 
-#### Example CTA
+#### Ví dụ nút bấm
 
 - `Xem Nhẫn trơn 9999`
 
-### Route Card 2
+### Thẻ điều hướng 2
 
-#### Label
+#### Tên thẻ
 
 - `Theo thương hiệu`
 
-#### Short Description
+#### Mô tả ngắn
 
 - `Dùng khi bạn chỉ muốn theo dõi bảng giá của một hệ thống quen thuộc như SJC, DOJI, PNJ hoặc Phú Quý.`
 
-#### Example CTA
+#### Ví dụ nút bấm
 
 - `Xem theo thương hiệu`
 
-### Route Card 3
+### Thẻ điều hướng 3
 
-#### Label
+#### Tên thẻ
 
 - `Theo ngày lịch sử`
 
-#### Short Description
+#### Mô tả ngắn
 
 - `Dùng khi bạn muốn đối chiếu biến động giá vàng theo từng ngày hoặc xem lại các mốc cũ trên biểu đồ giá vàng.`
 
-#### Example CTA
+#### Ví dụ nút bấm
 
 - `Xem giá theo ngày`
 
-## Block 3: Product Section
+## Khối 3: Khu vực theo sản phẩm
 
-### Suggested H2
+### Gợi ý H2
 
 - `Theo sản phẩm`
 
-### Section Intro
+### Đoạn giới thiệu khối
 
-Suggested copy:
+Gợi ý nội dung:
 
 `Nhóm này phù hợp khi bạn cần so sánh giá vàng theo từng loại cụ thể như nhẫn trơn 9999, vàng 24K hay các sản phẩm phổ biến khác. Cách xem này giúp trả lời nhanh câu hỏi giá vàng tiệm nào rẻ nhất cho đúng sản phẩm bạn đang quan tâm.`
 
-### Suggested Card Microcopy Patterns
+### Gợi ý câu mô tả ngắn cho thẻ
 
-Use one-line descriptions like:
+Có thể dùng các câu ngắn như:
 
-- `So sánh giá mua, giá bán và spread giữa nhiều tiệm`
+- `So sánh giá mua, giá bán và chênh lệch mua bán giữa nhiều tiệm`
 - `Phù hợp khi bạn muốn tìm nơi đang bán thấp hơn`
 - `Mở trang chi tiết để xem giờ cập nhật của từng nguồn`
 
-### Priority Product Ideas From Keyword Research
+### Gợi ý sản phẩm ưu tiên từ nghiên cứu từ khóa
 
 - `Nhẫn trơn 9999`
 - `Vàng 24K`
@@ -178,27 +178,27 @@ Use one-line descriptions like:
 - `Vàng 97`
 - `Vàng tây`
 
-## Block 4: Brand Section
+## Khối 4: Khu vực theo thương hiệu
 
-### Suggested H2
+### Gợi ý H2
 
 - `Theo thương hiệu`
 
-### Section Intro
+### Đoạn giới thiệu khối
 
-Suggested copy:
+Gợi ý nội dung:
 
 `Nhóm này phù hợp khi bạn thường giao dịch tại một hệ thống cụ thể và chỉ muốn theo dõi bảng giá của chính thương hiệu đó. Bạn có thể đi sâu theo SJC, DOJI, PNJ, Phú Quý hoặc các thương hiệu vàng lớn khác đang được theo dõi trên checkgia.`
 
-### Suggested Brand Link Microcopy
+### Gợi ý câu mô tả ngắn cho liên kết thương hiệu
 
-Use one-line descriptions like:
+Có thể dùng các câu ngắn như:
 
 - `Theo dõi toàn bộ bảng giá của thương hiệu này`
 - `Phù hợp khi bạn chỉ mua tại một tiệm quen`
 - `Xem các sản phẩm đang được thương hiệu này niêm yết`
 
-### Priority Brand Ideas From Keyword Research
+### Gợi ý thương hiệu ưu tiên từ nghiên cứu từ khóa
 
 - `SJC`
 - `DOJI`
@@ -207,125 +207,125 @@ Use one-line descriptions like:
 - `BTMC`
 - `Mi Hồng`
 
-## Block 5: History Section
+## Khối 5: Khu vực theo ngày lịch sử
 
-### Suggested H2
+### Gợi ý H2
 
 - `Theo ngày lịch sử`
 
-### Section Intro
+### Đoạn giới thiệu khối
 
-Suggested copy:
+Gợi ý nội dung:
 
 `Nếu bạn cần xem lại mốc giá cũ, đối chiếu biến động theo ngày hoặc kiểm tra xu hướng dài hơn, hãy mở các trang lịch sử. Đây là lối đi phù hợp cho nhu cầu xem biểu đồ giá vàng, mốc ngày trước đó hoặc so sánh các phiên gần đây.`
 
-### Suggested Supporting Line
+### Dòng bổ trợ gợi ý
 
 - `Bạn có thể bắt đầu từ các ngày gần nhất rồi đi lùi về các mốc cũ hơn khi cần đối chiếu.`
 
-### Suggested Link Labels
+### Gợi ý nhãn liên kết
 
 - `Giá vàng ngày hôm qua`
 - `Giá vàng 7 ngày gần đây`
 - `Giá vàng theo ngày`
 
-## Block 6: Freshness And Source Behavior
+## Khối 6: Độ mới dữ liệu và cách đọc nguồn
 
-### Suggested H2
+### Gợi ý H2
 
 - `Cách đọc thời gian cập nhật`
 
-### Suggested Intro
+### Đoạn giới thiệu gợi ý
 
 `Giá vàng không phải lúc nào cũng được các tiệm cập nhật cùng lúc. Khi so sánh, bạn nên đọc cả mức giá lẫn thời gian cập nhật của từng nguồn để tránh hiểu nhầm rằng mọi bảng giá đều mới như nhau.`
 
-### Suggested Bullets
+### Gợi ý các ý chính
 
 - `Không phải mọi nguồn đều cập nhật cùng lúc.`
 - `Giá rẻ nhất nên được đọc cùng thời gian cập nhật của chính nguồn đó.`
 - `Nguồn cũ hơn ngưỡng kỳ vọng cần được đánh dấu rõ.`
 - `Dữ liệu dùng để tham khảo và so sánh, không phải tư vấn đầu tư.`
 
-## Block 7: FAQ
+## Khối 7: Câu hỏi thường gặp
 
-Keep FAQ short.
+Giữ phần câu hỏi thường gặp ngắn gọn.
 
-Do not add more than 3 to 4 questions.
+Không nên thêm quá 3 đến 4 câu hỏi.
 
-### FAQ 1
+### Câu hỏi 1
 
-#### Question
+#### Câu hỏi
 
 - `Trang giá vàng này khác gì trang theo thương hiệu?`
 
-#### Answer
+#### Trả lời
 
 - `Trang này giúp bạn nhìn nhanh bảng giá vàng từ nhiều nguồn trên cùng một chỗ. Nếu bạn chỉ quan tâm một hệ thống như SJC, DOJI hay PNJ, nên mở trang theo thương hiệu để xem sâu hơn bảng giá của riêng hệ thống đó.`
 
-### FAQ 2
+### Câu hỏi 2
 
-#### Question
+#### Câu hỏi
 
 - `Khi nào nên xem theo sản phẩm thay vì theo tiệm?`
 
-#### Answer
+#### Trả lời
 
-- `Bạn nên xem theo sản phẩm khi mục tiêu là so sánh cùng một loại vàng giữa nhiều tiệm để tìm nơi đang niêm yết thấp hơn, spread hẹp hơn hoặc cập nhật mới hơn.`
+- `Bạn nên xem theo sản phẩm khi mục tiêu là so sánh cùng một loại vàng giữa nhiều tiệm để tìm nơi đang niêm yết thấp hơn, chênh lệch mua bán hẹp hơn hoặc cập nhật mới hơn.`
 
-### FAQ 3
+### Câu hỏi 3
 
-#### Question
+#### Câu hỏi
 
 - `Giá vàng cập nhật bao lâu một lần?`
 
-#### Answer
+#### Trả lời
 
 - `Mỗi nguồn có nhịp cập nhật riêng. Vì vậy thời gian làm mới không nên hiểu là đồng đều cho toàn bộ thị trường; hãy kiểm tra giờ cập nhật ở từng bảng giá hoặc từng trang sản phẩm trước khi so sánh.`
 
-### FAQ 4
+### Câu hỏi 4
 
-#### Question
+#### Câu hỏi
 
 - `Vì sao giá vàng mỗi tiệm khác nhau?`
 
-#### Answer
+#### Trả lời
 
-- `Mỗi hệ thống có biên độ mua bán, thời điểm cập nhật và chính sách niêm yết riêng. Vì vậy khi đối chiếu giá vàng, bạn nên nhìn cả giá bán, giá mua, spread và thời gian cập nhật của từng nguồn.`
+- `Mỗi hệ thống có biên độ mua bán, thời điểm cập nhật và chính sách niêm yết riêng. Vì vậy khi đối chiếu giá vàng, bạn nên nhìn cả giá bán, giá mua, chênh lệch mua bán và thời gian cập nhật của từng nguồn.`
 
-## Section Wording Recommendations
+## Gợi ý đổi tên các khu vực
 
-Replace vague labels with intent-led labels.
+Nên thay các nhãn còn mơ hồ bằng cách gọi rõ ý định hơn.
 
-Suggested mapping:
+Gợi ý:
 
 - `Tất cả vàng` -> `Theo sản phẩm`
 - `Mỗi tiệm riêng` -> `Theo thương hiệu`
 - `Giá vàng ngày trước` -> `Theo ngày lịch sử`
 - `Câu hỏi hay gặp` -> `Câu hỏi thường gặp`
 
-## Internal Link Priority
+## Ưu tiên liên kết nội bộ
 
-Within `/vang`, the most visible links should prioritize:
+Trong `/vang`, các liên kết hiển thị nổi bật nên ưu tiên:
 
 1. `Nhẫn trơn 9999`
-2. core brand pages like `SJC`, `DOJI`, `PNJ`, `Phú Quý`
-3. recent historical date pages
+2. các trang thương hiệu chính như `SJC`, `DOJI`, `PNJ`, `Phú Quý`
+3. các trang ngày lịch sử gần đây
 
-## Implementation Notes
+## Lưu ý khi triển khai
 
-- keep all key explanatory copy server-rendered
-- keep intro and route copy above the fold where possible
-- make route cards clickable, not descriptive only
-- avoid turning the page into a generic article
-- avoid filler paragraphs that do not help the next click
+- giữ toàn bộ phần chữ giải thích quan trọng ở dạng render sẵn từ máy chủ
+- ưu tiên đặt phần giới thiệu và phần điều hướng nhanh trong vùng dễ thấy đầu trang
+- thẻ điều hướng phải bấm được, không chỉ là phần mô tả
+- tránh biến trang thành một bài viết chung chung
+- tránh các đoạn văn dài nhưng không giúp người dùng chọn bước tiếp theo
 
-## Definition Of Done
+## Điều kiện hoàn thành
 
-This draft is implemented well when:
+Bản nháp này được xem là triển khai tốt khi:
 
-1. `/vang` clearly reads like a gold hub page
-2. the intro explains scope and browsing logic
-3. route cards explain when to choose each path
-4. section intros give context, not just labels
-5. freshness guidance is explicit and trustworthy
-6. copy aligns with the keyword plan without sounding stuffed
+1. `/vang` đọc rõ như một trang trung tâm về giá vàng
+2. phần giới thiệu giải thích rõ phạm vi và cách duyệt trang
+3. các thẻ điều hướng cho biết khi nào nên chọn từng lối đi
+4. phần mở đầu của từng khu vực có ngữ cảnh, không chỉ có nhãn
+5. hướng dẫn về độ mới dữ liệu rõ ràng và đáng tin
+6. nội dung bám kế hoạch từ khóa nhưng không tạo cảm giác nhồi nhét
